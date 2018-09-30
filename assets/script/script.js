@@ -7,27 +7,27 @@ url = "https://api.nasa.gov/planetary/apod?api_key=xipF3UVvYjtR5E3oMJfyoCaeLXNCl
 
 $.ajax({
     url: url,
-    method: "Get"
+    method: "get"
 }
 )
-.then(function (results) {
-    var image = results.url
-        $("body").css("background-image", "url('"+ image +"'")
-    console.log(results)
-}
+    .then(function (results) {
+        var image = results.hdurl
+        $("body").css("background-image", "url('" + image + "'")
+    }
 )
 
 // init buttons that do stuff 
-$("#main").on("click", function(){
-    $("#mainBody").hide()
+$("#main").on("click", function () {
+    // $("#mainBody").text("")
+    $("#mainBody").text($(this).val())
     //ideally youd make the text n such like the original 
 })
-$("#port").on("click", function(){
-    $("#mainBody").hide()
+$("#port").on("click", function () {
+    $("#mainBody").text($(this).val())
     //ideally youd make the text n such like the original 
 })
-$("#contact").on("click", function(){
-    $("#mainBody").hide()
+$("#contact").on("click", function () {
+    $("#mainBody").text($(this).val())
     //ideally youd make the text n such like the original 
 })
 
