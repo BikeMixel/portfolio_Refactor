@@ -4,7 +4,7 @@
 			<v-container>
 					<v-card class="cardify elevation-22">
 						<v-img
-              src='https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+              src='https://66.media.tumblr.com/347992d4b2afeb2dcd308e1677c226cb/tumblr_pikga1J7co1xdm0hjo2_400.jpg'
               aspect-ratio="2.75"
               class="elevation-25">
             </v-img>
@@ -21,7 +21,7 @@
                 <v-tab-item>
                   <v-card class="elevation-18">
                     <v-card-text>
-                      <span class="fontify_body"><p>Here's where I'll put a carousel... showing different projects and a link to deployed and repo</p></span>
+                      <span class="fontify_body"><p>You're looking at my first solo Vue build right now.  If you click the GitHub icon in the upper right, it will direct you to my GitHub repositories.</p></span>
                     </v-card-text>
                   </v-card>
                 </v-tab-item>

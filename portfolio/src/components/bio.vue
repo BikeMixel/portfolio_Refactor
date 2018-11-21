@@ -2,10 +2,9 @@
   <v-content>
     <v-layout>
 			<v-container>
-
 					<v-card class="cardify elevation-22">
 						<v-img
-              src='https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+              src='https://66.media.tumblr.com/cfe2bf74bf006d6e73c449a8f36ab939/tumblr_pikga1J7co1xdm0hjo1_1280.png'
               aspect-ratio="2.75"
               class="elevation-25">
             </v-img>
@@ -22,16 +21,15 @@
                 <v-tab-item>
                   <v-card class="elevation-18">
                     <v-card-text>
-                      <span class="fontify_body"><p>I am a 25 year old aspiring web developer. I have an interest in coding because I sincerely did not understand how it worked at all, although that is changing now. 
-                      I'm particularly interested in web development because I've grown up in the age where the internet really took off, and with no signs of slowing down, 
-                      I'm sure web developers are in pretty high demand, which helps because I'm looking to change careers.</p></span>
+                      <span class="fontify_body"><p>I am a 25 year old aspiring web developer. Currently I am taking a full stack web development bootcamp course.  
+                      Coding is a recent hobby, but it can prove to be pretty addicting.  I am comfortable with HTML, CSS, SQL, Vanilla JavaScript and a few JavaScript libraries/frameworks including VueJS, Express, and Node.
+                      Primarily I feel my skills are best suited for front-end development but I'm eager to continue becoming better with back-end technologies. </p></span>
                     </v-card-text>
                   </v-card>
                 </v-tab-item>
                 </v-tabs>
               </v-container>
           </v-card>
-
       </v-container>
     </v-layout>
    </v-content> 
@@ -43,6 +41,8 @@
     background-size: cover
   }
   .fontify_body {
-    font-family: 'Kanit', sans-serif
+    font-family: 'Aref Ruqaa', serif;
+    font-weight: bold;
+    font-size: 14px;
   }
 </style>
