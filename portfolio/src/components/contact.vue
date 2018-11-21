@@ -5,7 +5,7 @@
 		
 					<v-card class="cardify elevation-22">
 						<v-img
-              src='https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+              src='https://66.media.tumblr.com/3d64cc78b89c837714ceb4f2941ccf04/tumblr_pikga1J7co1xdm0hjo3_1280.jpg'
               aspect-ratio="2.75"
               class="elevation-25">
             </v-img>
