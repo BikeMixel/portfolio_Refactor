@@ -1,18 +1,54 @@
 <template>
 <v-content>
-  <v-toolbar>       
+  <v-toolbar>
+       
     <v-toolbar-title class="headline text-uppercase">
       <span class="fontify colorize embiggen">mike </span>
       <span class="fontify colorize embiggen font-weight-light text-lowercase">bixel</span>
     </v-toolbar-title>          
-      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>    
+    <div class="text-xs-center">
+    <v-menu offset-y>
+      <v-btn
+        slot="activator"
+        dark>
+       <v-icon>widgets</v-icon>
+      </v-btn>
+      <v-list>
+        <v-list-tile
+          v-for="(item, index) in items"
+          :key="index"
+          @click=""
+          :to="item.route">
+          <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-menu>
+  </div>
       <a href="https://github.com/BikeMixel" target="blank"><font-awesome-icon class="embiggen" :icon="['fab', 'github']"></font-awesome-icon></a>
   </v-toolbar>
 </v-content>
 </template>
 
 <script>
-
+  export default {
+    data: () => ({
+      items: [
+        { title: 'Home',
+          route: '/' 
+        },
+        { title: 'Bio',
+          route: '/bio'
+        },
+        { title: 'Contact',
+          route: '/contact'
+        },
+        { title: 'Portfolio', 
+          route: '/portfolio'
+        }
+      ]
+    })
+  }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

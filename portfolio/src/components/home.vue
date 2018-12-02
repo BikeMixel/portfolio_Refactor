@@ -4,7 +4,7 @@
 			<v-container>
 					<v-card class="cardify elevation-22">
 						<v-img
-              src='https://j6p9k2g4.stackpathcdn.com/wp-content/uploads/2017/10/ios_7_galaxy_wallpaper_for_desktop_by_iar7-d6av9ap-1.png'
+              src='https://c1.staticflickr.com/6/5495/10217662945_18567b7b8b_b.jpg'
               aspect-ratio="2.75"
               class="elevation-25">
             </v-img>
@@ -15,13 +15,13 @@
 									hide-slider
 									icons-and-text>
 								<v-tab>
-									<span class="fontify colorize">My Projects</span>
-									<v-icon large color="white">card_travel</v-icon>
+									<span class="fontify colorize">Home</span>
+									<v-icon large color="white">home </v-icon> 
 								</v-tab>
                 <v-tab-item>
                   <v-card class="elevation-18">
                     <v-card-text>
-                      <span class="fontify_body"><p>You're looking at my first solo Vue build right now.  If you click the GitHub icon in the upper right, it will direct you to my GitHub repositories.</p></span>
+                      <span class="fontify_body"><p>Ahhh... the Cleveland skyline, most famous for its inability to distinguish itself. </p></span>
                     </v-card-text>
                   </v-card>
                 </v-tab-item>
@@ -35,6 +35,6 @@
 
 <script>
 export default {
-  name: 'project'
+  name: 'home'
 }
 </script>
