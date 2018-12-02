@@ -26,6 +26,11 @@
                       Primarily I feel my skills are best suited for front-end development but I'm eager to continue becoming better with back-end technologies. </p></span>
                     </v-card-text>
                   </v-card>
+                  <v-card>
+                  <v-card-text>
+                    <h1>Hey</h1>
+                  </v-card-text>
+                  </v-card>
                 </v-tab-item>
                 </v-tabs>
               </v-container>
@@ -43,7 +48,7 @@ export default {
 
 <style>
   .cardify {
-    background-image: url('../assets/images/card_bg.jpg');
+    background-image: url('../assets/images/argyle.jpg');
     background-size: cover;
     margin-bottom: 40px;
   }

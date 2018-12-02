@@ -8,32 +8,32 @@ import project from './components/project.vue'
 Vue.use(Router)
 
 export default new Router ({
-    mode: 'history',
-    routes: [
-        {
-            path: '/',
-            name: 'home',
-            component: home
-        },
-        {
-            path: '/bio',
-            name: 'bio',
-            component: bio
-        },
-        {
-            path: '/portfolio',
-            name: 'portfolio',
-            component: project
-        },
-        {
-            path: '/contact',
-            name: 'contact',
-            component: contact
-        },
-        {
-            path: '*',
-            redirect: '/'
-        }
-    ]
+  mode: 'history',
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: home
+    },
+    {
+      path: '/bio',
+      name: 'bio',
+      component: bio
+    },
+    {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: project
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: contact
+    },
+    {
+      path: '*',
+      redirect: '/'
+    }
+  ]
 })
 
