@@ -35,10 +35,17 @@
    </v-content> 
 </template>
 
+<script>
+export default {
+  name: 'bio'
+}
+</script>
+
 <style>
   .cardify {
     background-image: url('../assets/images/card_bg.jpg');
-    background-size: cover
+    background-size: cover;
+    margin-bottom: 40px;
   }
   .fontify_body {
     font-family: 'Aref Ruqaa', serif;

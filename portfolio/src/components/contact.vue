@@ -51,6 +51,12 @@
    </v-content> 
 </template>
 
+<script>
+export default {
+  name: 'contact'
+}
+</script>
+
 <style>
   .endarken {
     color: black
