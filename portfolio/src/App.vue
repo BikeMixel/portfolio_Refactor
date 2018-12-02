@@ -1,13 +1,13 @@
 <template>
   <v-app>
     <div id="app">
+    <transition name="zoom">
     <v-content class="mainContent">
       <app-head/>
-
       <router-view></router-view>
-
       <app-foot/>
     </v-content>
+    </transition>
     </div>
   </v-app>
 </template>
@@ -15,7 +15,6 @@
 <script>
 import head from './components/head'
 import foot from './components/foot'
-
 
 export default {
   name: 'App',
